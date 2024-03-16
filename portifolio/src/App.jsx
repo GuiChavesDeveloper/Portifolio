@@ -7,6 +7,7 @@ import instagram from './assets/icon/instagram_icon.png'
 import linkedin from './assets/icon/linkedin_icon.png'
 import github from './assets/icon/github_icon.png'
 import facebook from './assets/icon/facebook_icon.png'
+import self from './assets/images/self_img.jpg'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
     <>
       <div className="app">
         <Header />
-        <div className="main">
+        <section className="main">
           <h1>Guilherme Chaves</h1>
           <h2>Full Stack Develover</h2>
           <h3>Find Me Here:</h3>
@@ -24,7 +25,12 @@ function App() {
             <li><a href="https://github.com/GuiChavesDeveloper" target='_blank'><img src={github} alt="" /></a></li>
             <li><a href="https://www.facebook.com/guilherme.chaves.7587370/" target='_blank'><img src={facebook} alt="" /></a></li>
           </ul>
-        </div>
+        </section>
+        <section className='aboutMe'>
+          <div>
+            <img className='self-img' src={self} alt="Guilherme Chaves" />
+          </div>
+        </section>
       </div>
     </>
   )
