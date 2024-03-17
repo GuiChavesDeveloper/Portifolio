@@ -1,11 +1,16 @@
+@use '../variables'
+
 header
     display: flex
     justify-content: space-between
     margin: 0
     align-content: flex-end
-    width: auto
+    width: 100%
     height: auto
-    z-index: 1
+    position: fixed
+    top: 0
+    left: 0
+    background: variables.$light-bg-color
 
 .logo
     height: 90px
@@ -27,7 +32,7 @@ header
         font-size: 27px
         a
             text-decoration: none
-            color: #333333
+            color: variables.$light-text-color
 
 .menu li:last-child
     margin-right: 0

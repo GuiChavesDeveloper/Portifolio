@@ -4,6 +4,7 @@
     display: flex
     flex-direction: column
     justify-content: center
+    padding-top: 90px
 
 .main
     display: grid
@@ -23,9 +24,7 @@
         font-size: 5rem
         font-weight: 300
 
-        background: variables.$light-text-color
-        -webkit-background-clip: text
-        -webkit-text-fill-color: transparent
+        color: variables.$light-text-color
 
     h3
         justify-self: center
@@ -33,9 +32,7 @@
         font-weight: 300
         margin-top: 8rem
 
-        background: variables.$light-text-color
-        -webkit-background-clip: text
-        -webkit-text-fill-color: transparent
+        color: variables.$light-text-color
 
     ul
         list-style-type: none
@@ -52,9 +49,44 @@
             border-radius: 5px
 
 .aboutMe
+    display: flex
+    flex-wrap: wrap
+
     background: variables.$light-card-color
     margin-top: 7rem
-    padding: 3rem
+    padding: 1rem
 
     .self-img
         height: 52rem
+        border-radius: 100px
+
+    .title
+        font-size: 5rem
+        font-weight: 300
+
+        margin-left: 3rem
+
+        color: variables.$light-text-color
+
+    .content
+        background: variables.$light-text-card-color
+        padding: 3rem
+        border-radius: 15px
+        margin-left: 3rem
+
+        p
+            font-size: 2rem
+            color: variables.$light-text-color-secundary
+
+    .tec-icons
+        list-style-type: none
+        margin: 0
+        padding: 0
+        margin-top: 1rem
+        margin-left: 3rem
+
+        li
+            display: inline-block
+            padding: 0
+            margin-top: 3rem
+            margin-right: 4rem
