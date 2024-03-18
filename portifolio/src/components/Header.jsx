@@ -1,3 +1,5 @@
+import React from 'react'
+
 import SwitchButton from './SwitchButton'
 
 import '../styles/components/header.sass'
