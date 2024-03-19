@@ -18,6 +18,7 @@ aninhamento e mixins, facilitando a estilização de páginas web.</li>
 
 Para visualizar o projeto, basta acessar o link abaixo:
 
+https://guichavesdeveloper.github.io/Portifolio/
 
 ### Estrutura do Projeto
 
