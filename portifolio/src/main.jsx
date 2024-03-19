@@ -4,8 +4,19 @@ import App from './App.jsx'
 
 import "./styles/main.sass"
 
+import {
+  BrowserRouter, RouterProvider
+} from "react-router-dom"
+
+const router = BrowserRouter([
+  {
+    path: "/",
+    element: <App />
+  }
+])
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

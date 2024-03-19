@@ -2,6 +2,8 @@ import React from 'react'
 
 import Header from './components/Header'
 
+import { Route } from 'react-router-dom'
+
 import './styles/components/app.sass'
 
 import instagram_icon from './assets/icon/instagram_icon.png'
