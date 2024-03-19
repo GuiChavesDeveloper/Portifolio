@@ -23,7 +23,7 @@ function Header() {
                 <ul className='menu'>
                     <li><Link to={"/"} onClick={scrollToHome}>Home</Link></li>
                     <li><Link to={"/"} onClick={scrollToAboutMe}>About Me</Link></li>
-                    <li><Link to={"portifolio"}>Portifolio</Link></li>
+                    <li><Link to={"gitprojects"}>Portifolio</Link></li>
                 </ul>
                 <SwitchButton />
             </header>

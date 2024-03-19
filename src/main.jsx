@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "portifolio",
+    path: "gitprojects",
     element: <GitProjects />
   }
 ])
