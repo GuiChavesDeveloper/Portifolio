@@ -21,9 +21,9 @@ function Header() {
             <header>
                 <a href="#" className="logo"><img src={logo} alt="Logo Guilherme Chaves" className='logo' /></a>
                 <ul className='menu'>
-                    <li><Link to={"/"} onClick={scrollToHome}>Home</Link></li>
-                    <li><Link to={"/"} onClick={scrollToAboutMe}>About Me</Link></li>
-                    <li><Link to={"gitprojects"}>Portifolio</Link></li>
+                    <li><Link to={"/Portifolio"} onClick={scrollToHome}>Home</Link></li>
+                    <li><Link to={"/Portifolio"} onClick={scrollToAboutMe}>About Me</Link></li>
+                    <li><Link to={"/Portifolio/gitprojects"}>Portifolio</Link></li>
                 </ul>
                 <SwitchButton />
             </header>
