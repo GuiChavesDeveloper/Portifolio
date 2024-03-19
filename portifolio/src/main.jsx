@@ -1,17 +1,22 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import GitProjects from './components/GitProjects.jsx'
 
 import "./styles/main.sass"
 
 import {
-  BrowserRouter, RouterProvider
+  RouterProvider, createBrowserRouter
 } from "react-router-dom"
 
-const router = BrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App />
+  },
+  {
+    path: "portifolio",
+    element: <GitProjects />
   }
 ])
 
