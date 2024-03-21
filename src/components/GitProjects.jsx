@@ -6,7 +6,7 @@ function GitProjects() {
         <>
             <div className="portifolio">
                 <h1>Under Building...</h1>
-                <Link to={"/"} className='voltar'>Voltar</Link>
+                <Link to={"/Portifolio"} className='voltar'>Voltar</Link>
             </div>
         </>
     )
