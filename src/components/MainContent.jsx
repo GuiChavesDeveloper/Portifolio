@@ -26,10 +26,10 @@ function MainContent() {
                 </ul>
             </section>
             <section className='aboutMe'>
-                <div>
+                <div className='div-img'>
                     <img className='self-img' src={self} alt="Guilherme Chaves" />
                 </div>
-                <div>
+                <div className='div-content'>
                     <h1 className='title'>About Me</h1>
                     <div className="content">
                         <p>Hello!<br />My name is Guilherme Chaves and I am a Full Stack developer.

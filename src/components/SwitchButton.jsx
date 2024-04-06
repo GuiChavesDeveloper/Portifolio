@@ -3,13 +3,6 @@ import '../styles/components/switchbutton.sass'
 import sun_icon from "../assets/icon/sun_icon.png"
 
 function SwitchButton() {
-    const body = document.querySelector('body')
-    const btn = document.querySelector('.btn')
-
-    btn.addEventListener('click', () => {
-        body.classList.toggle('darkmode')
-    })
-
     return (
         <>
             <div className="btn">
