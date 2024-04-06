@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import instagram_icon from '../assets/icon/instagram_icon.png'
 import linkedin_icon from '../assets/icon/linkedin_icon.png'
 import github_icon from '../assets/icon/github_icon.png'
@@ -13,7 +14,6 @@ import '../styles/components/maincontent.sass'
 function MainContent() {
     return (
         <>
-            <div className='top'></div>
             <section className="main">
                 <h1>Guilherme Chaves</h1>
                 <h2>Full Stack Develover</h2>

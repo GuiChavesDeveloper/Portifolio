@@ -1,6 +1,15 @@
+@use '../variables'
 
-.app
+.app.light
     display: flex
     flex-direction: column
     justify-content: center
     padding-top: 90px
+    background-color: variables.$light-bg-color
+
+.app.dark
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding-top: 90px
+    background-color: variables.$dark-bg-color

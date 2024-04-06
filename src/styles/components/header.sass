@@ -1,6 +1,6 @@
 @use '../variables'
 
-header
+.header.light
     display: flex
     justify-content: space-between
     margin: 0
@@ -12,12 +12,24 @@ header
     left: 0
     background: variables.$light-bg-color
 
+.header.dark
+    display: flex
+    justify-content: space-between
+    margin: 0
+    align-content: flex-end
+    width: 100%
+    height: auto
+    position: fixed
+    top: 0
+    left: 0
+    background: variables.$dark-bg-color
+
 .logo
     height: 90px
     width: 90px
     margin-left: 42px
 
-.menu
+.menu.light
     list-style-type: none
     padding: 0
     margin: 0
@@ -33,6 +45,23 @@ header
         a
             text-decoration: none
             color: variables.$light-text-color
+
+.menu.dark
+    list-style-type: none
+    padding: 0
+    margin: 0
+    margin-top: 1rem
+
+    li
+        display: inline-block
+        padding: 10px
+        margin-right: 3rem
+        margin-bottom: 5px
+        border-radius: 5px
+        font-size: 27px
+        a
+            text-decoration: none
+            color: variables.$dark-text-color
 
 .menu li:last-child
     margin-right: 0

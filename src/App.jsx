@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 
 import './styles/components/app.sass'
-import { Outlet } from 'react-router-dom'
 
 
 
 function App() {
+
+  const [temaEscuro, setTemaEscuro] = useState(false)
+
   return (
     <>
-      <div className="app">
-        <Header />
+      <div className={`app ${temaEscuro ? 'dark' : 'light'}`}>
+        <Header setTemaEscuro={setTemaEscuro} />
         <MainContent />
       </div>
     </>
